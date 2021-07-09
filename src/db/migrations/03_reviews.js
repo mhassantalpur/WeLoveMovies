@@ -1,4 +1,3 @@
-
 exports.up = function (knex) {
   return knex.schema.createTable("reviews", function (table) {
     table.increments("review_id").primary();
